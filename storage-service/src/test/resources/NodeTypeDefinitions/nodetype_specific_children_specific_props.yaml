@@ -1,0 +1,11 @@
+nodetype: "tm:sampletype:1"
+children:
+  - name: childA
+    nodetype: "tm:childtype:1"
+  - name: childB
+    nodetype: "tm:secondchild:1"
+properties:
+  - name: prop1
+    type: string
+  - name: prop2
+    type: binary

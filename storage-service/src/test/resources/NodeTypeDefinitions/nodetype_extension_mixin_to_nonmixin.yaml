@@ -1,0 +1,13 @@
+---
+nodetype: "tm:lockable:1"
+properties:
+  - name: locked
+    type: boolean
+  - name: lockOwner
+    type: string
+    optional: true
+mixin: true
+---
+nodetype: "tm:versionable:1"
+extends: "tm:lockable:1"
+mixin: false

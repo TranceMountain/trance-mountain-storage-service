@@ -1,0 +1,44 @@
+---
+nodetype: "mix:lockable:1"
+mixin: true
+properties:
+  - name: locked
+    type: boolean
+  - name: lockedBy
+    type: string
+---
+nodetype: "mix:versionable:1"
+extends: "mix:lockable:1"
+mixin: true
+properties:
+  - name: checkedOut
+    type: boolean
+  - name: version
+    type: long
+---
+nodetype: "tm:unstructured:1"
+children: "*"
+properties: "*"
+---
+nodetype: "tm:folder:1"
+properties:
+  - name: name
+    type: string
+  - name: "*"
+children:
+  - nodetype: "tm:file:1"
+    minCount: 0
+  - nodetype: "tm:folder:1"
+    minCount: 0
+---
+nodetype: "tm:file:1"
+properties:
+  - name: name
+    type: string
+  - name: data
+    type: binary
+  - name: created
+    type: date
+  - name: lastModified
+    type: date
+  - name: "*"

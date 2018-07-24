@@ -1,0 +1,10 @@
+nodetype: "tm:parent:1"
+children:
+  - nodetype: "tm:child:1"
+    maxCount: 3
+  - nodetype: "tm:parent:1"
+    minCount: 3
+  - nodetype: "tm:symlink:1"
+    minCount: 1
+    maxCount: 2
+  - nodetype: "tm:other:1"

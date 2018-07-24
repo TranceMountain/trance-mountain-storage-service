@@ -1,0 +1,28 @@
+nodetype: "tm:sampletype:1"
+properties:
+  - name: bprop
+    type: boolean
+  - name: sprop
+    type: string
+  - name: saprop
+    type: string[]
+  - name: intprop
+    type: int
+  - name: iaprop
+    type: int[]
+  - name: lprop
+    type: long
+  - name: laprop
+    type: long[]
+  - name: dprop
+    type: double
+  - name: daprop
+    type: double[]
+  - name: binprop
+    type: binary
+  - name: wrprop
+    type: weakReference
+  - name: srprop
+    type: strongReference
+  - name: dateprop
+    type: date

@@ -1,0 +1,8 @@
+nodetype: "tm:sampletype:1"
+properties:
+  - name: prop1
+    type: string
+    optional: true
+  - name: prop2
+    type: binary
+    optional: true

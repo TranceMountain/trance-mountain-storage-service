@@ -1,0 +1,13 @@
+<project name="Trance Mountain Storage Service">
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+    <bannerRight>
+        <src>http://maven.apache.org/images/maven-logo-2.gif</src>
+    </bannerRight>
+    <body>
+        <menu ref="reports" />
+    </body>
+</project>

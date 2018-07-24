@@ -1,0 +1,5 @@
+---
+nodetype: "tm:marker:1"
+---
+nodetype: "tm:mixinExample:1"
+mixin: true

@@ -1,0 +1,6 @@
+nodetype: "tm:sampletype:1"
+properties:
+  - name: prop1
+    type: string
+  - name: prop2
+    type: long
